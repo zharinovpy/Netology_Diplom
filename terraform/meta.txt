@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: user
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAB3NzaC1yc2EAAAADAQABAAABgQCVZS/roawSsFkq1HX+VnJrQYlb2Zx3uqbMMiF5VaFL+JzXKBMe9YHhNTyXGdc1wZ2z/dJ64im7u30wfdX0zY7C1ui22JfRw1K2wmXTPiFy9CIajp4J1QLM0bCJ/JaoV54sNrRB1mJdt3+z7n+iP8N2Yi8BsOaAoI0qVQftabQtG96TVzY6CtpD2SmjWhlFHT0zsQ1E8AU3qfyUoSISz8HrzJmbVAcjVejEwExDO/PYykDYLxUUawjNWzIEFCbKR/V8XfbWRSJxr5/gIhr3FjYpOnwtWjnxfX+M/EjjZNGoNLcjZ5CLL/u2x7tVWsjXnWyZajjYSEVB/t2NrIvJ7cC67GMQwhL5JoC3DGkvc1XcNaeE5agDNNyhzOOugneA3KT0U5qsAQScYkXhowpMINuo4hbmS8U106Cl3UPxQuHyRtJ6lgYeOsuEECV45Dj+/lcnUVgaW1MADa2plY0QJ+o0JMekc+dhPodEPa/5tt9KtAgPhz0+iYGjOJgo2s18t1s= vb@vb-VirtualBox
