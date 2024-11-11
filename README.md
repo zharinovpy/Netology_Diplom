@@ -262,6 +262,7 @@ web2
 ![filebaet](img/35.png)
 
 Проверка работы службы filebeat на серверах.
+
 web1
 ![filebeat_web1](img/36.png)
 
